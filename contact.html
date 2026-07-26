@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | SingletonOps</title>
+  <meta name="description" content="Contact SingletonOps / VibeX LLC for AI consultancy, automation, agentic systems, or digital kit support." />
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b0f14'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' font-family='system-ui' font-size='28' font-weight='700' fill='%232ee6a6'%3ESO%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <div id="site-header"></div>
+  <main>
+    <section class="page-hero">
+      <div class="wrap" style="max-width:40rem;">
+        <p class="eyebrow">Contact</p>
+        <h1>Start a conversation</h1>
+        <p class="lead">
+          Services are scoped by email and written agreement. For the digital kit, use the product page checkout when live.
+        </p>
+        <div class="card" style="margin-top:1.5rem;">
+          <p style="margin-top:0;color:var(--muted);">Primary email</p>
+          <p style="font-size:1.2rem;margin:0 0 1rem;"><strong id="email-display">hello@singletonops.ai</strong></p>
+          <div class="btn-row">
+            <a class="btn btn-primary" data-mailto="SingletonOps inquiry" href="#">Open email client</a>
+            <a class="btn btn-secondary" href="/services.html">Browse services</a>
+          </div>
+          <p class="quiet">Interest areas: AI Consultancy · AI Automation · Agentic AI · Digital kit · Other</p>
+        </div>
+        <div class="notice" style="margin-top:1.25rem;">
+          We do not take HIPAA/PHI, political campaign, or adult content projects.
+          We do not provide investment advice or signal services.
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="/assets/config.js"></script>
+  <script src="/assets/partials.js"></script>
+  <script src="/assets/site.js"></script>
+  <script>
+    document.getElementById("email-display").textContent =
+      (window.SINGLETONOPS && window.SINGLETONOPS.supportEmail) || "hello@singletonops.ai";
+  </script>
+</body>
+</html>
