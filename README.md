@@ -3,7 +3,7 @@
 Public marketing site for **SingletonOps** (VibeX LLC).
 
 - Services: AI Consultancy · AI Automation · Agentic AI  
-- Product: AI Markets & Tech Ops Kit ($39)  
+- Product: AI Markets & Tech Ops Kit ($9)  
 - Static HTML — **no Bolt Pro required** for custom domains  
 
 ## Deploy
